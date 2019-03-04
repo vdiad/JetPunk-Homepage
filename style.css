@@ -1,0 +1,334 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MY CODE * 4a78a0*/
+
+*{
+  font-family: Arial, Helvetica;
+}
+
+.head-main {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: rgb(74, 120, 160);
+  height: 50px;
+  padding: 0 63px;
+}
+
+.head-main a{
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+}
+
+.head-main img{
+  flex:0.5;
+  height: 65px;
+
+}
+
+.navlist-l{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+  margin: 0 40px;
+}
+.navlist-l button {
+  background-color: inherit;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(238, 238, 238);
+}
+
+
+.navlist-r {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.search-div{
+  flex: 2;
+}
+.search-outline{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  border-radius: 1px;
+}
+
+.search-outline button {
+  height: 32px;
+  font-size: 15px;
+  color: black;
+}
+
+.search-outline input{
+  height: 26px;
+  font-size: 15px;
+  color: rgba(0,0,0,0.6);
+}
+
+.head-main ul{
+  list-style: none;
+}
+
+/* Main Body */
+
+  main {
+    margin: 0 63px;
+  }
+
+.column-main{
+  width: 730px;
+}
+
+#welcome h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.8);
+  margin: 30px 0 15px 0;
+}
+
+.quiz-stats {
+  display: flex;
+  font-weight: 500px;
+  font-size: 16px;
+  color: rgba(0,0,0,0.8);
+  background-color: rgba(85, 255, 0, 0.2);
+  width: 418px;
+  height: 44px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgba(51, 153, 0, 0.5);
+  border-radius: 3px;
+}
+
+.quiz-stats .span1 {
+  font-size: 19.2px;
+  font-weight: 700;
+}
+
+.quiz-stats .span2 {
+  font-size: 19.2px;
+  font-weight: 700;
+  color: rgb(51,51, 255);
+}
+
+.column-main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.qimg{
+  width: 90px;
+  height: 90px;
+}
+
+.quiz{
+  display: flex;
+  margin: 20px 0;
+
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0 0 0 ;
+}
+
+.qtext{
+  line-height: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.qtext a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listhead{
+  font-size: 16.8px;
+  font-weight: 700;
+  color: rgba(0,0,0,0.8);
+  text-decoration: none;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.col-r {
+  background-color: rgb(242, 234, 225);
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+.col-r a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.col-a{
+  display: flex;
+  flex-flow: column wrap;
+  width: 158px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.coll-l{
+  padding: 8px;
+}
+.col-a ul{
+  list-style: none;
+
+}
+
+.col-b ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+
+}
+
+.col-b{
+  width: 180px;
+  line-height: 20px;
+  padding: 10px 12px 0 25px;
+  margin-top: 30px;
+  height: 520px;
+}
+
+.col-b a{
+  font-size: 14px;
+
+}
+
+.col-r{
+
+}
+.
+
+
+
+.
